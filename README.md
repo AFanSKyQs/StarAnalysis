@@ -20,26 +20,35 @@
 > StarAnalysis - APK analysis system of Star Exploration Web
 
 ## 使用安装
-
+### clone项目
 ``` bash
-# 1.国内先换一下源，以更快的安装依赖等
-$ npm config set registry "https://registry.npm.taobao.org"
-
-# 2.安装依赖
-$ npm install
-
-# 3.解决node版本问题
-$ set NODE_OPTIONS=--openssl-legacy-provider
-
-# 4.启动
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
+git clone https://github.com/AFanSKyQs/StarAnalysis.git
+```
+### 国内换源，以更快的安装依赖等
+``` bash
+npm config set registry "https://registry.npm.taobao.org"
+```
+### 安装依赖
+``` bash
+npm install
+```
+### 解决node版本问题
+``` bash
+set NODE_OPTIONS=--openssl-legacy-provider
+```
+### 启动
+``` bash
+npm run dev
+```
+### build for production and launch server
+``` bash
+npm run build
+npm run start
+```
 
 # generate static project
-$ npm run generate
+``` bash
+npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
