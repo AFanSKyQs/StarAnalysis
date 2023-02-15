@@ -1,7 +1,7 @@
 {
-  "name": "jironis",
+  "name": "staranalysis",
   "version": "1.0.0",
-  "description": "Jironis - Vue Nuxt App Landing One Page Template",
+  "description": "StarAnalysis - APK analysis system of Star Exploration Web",
   "author": "Layerdrops",
   "private": true,
   "scripts": {
