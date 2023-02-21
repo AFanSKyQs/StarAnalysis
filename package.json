@@ -2,7 +2,7 @@
   "name": "staranalysis",
   "version": "1.0.0",
   "description": "StarAnalysis - APK analysis system of Star Exploration Web",
-  "author": "Layerdrops",
+  "author": "AFanSKyQs",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,11 +11,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "element-ui": "^2.15.13",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.3",
     "nuxt": "^2.0.0",
     "swiper": "^5.3.7",
+    "vue": "^2.7.14",
     "vue-awesome-swiper": "^4.1.0",
     "vue-count-to": "^1.0.13",
-    "vue-observe-visibility": "^0.4.6"
+    "vue-observe-visibility": "^0.4.6",
+    "vue-server-renderer": "^2.7.14",
+    "vue-template-compiler": "^2.7.14"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1"
+  }
 }
