@@ -25,19 +25,20 @@
                                           <i class="fa fa-bars"></i>
                                         </div>
                                           <ul class="main-nav">
-                                              <li><a href="#" class="active">HOME</a>
-<!--                                            class="active"><nuxt-link to="/">HOME</nuxt-link>-->
-                                                  <ul>
-                                                    <li><a href="#" class="active">HOME-1</a></li>
-<!--                                                      <li class="active"><nuxt-link to="/">HOME-1</nuxt-link></li>-->
-                                                      <li><nuxt-link to="/index2">HOME-2</nuxt-link></li>
-                                                  </ul>
-                                              </li>
-                                              <li><a href="#features">基本信息</a></li>
-                                              <li><a href="#app">权限分析</a></li>
-                                              <li><a href="#pricing">调证和SDK</a></li>
-                                            <li><a href="#pricing">服务器信息</a></li>
-                                            <li><a href="#pricing">行为分析</a></li>
+                                            <li><nuxt-link to="/index2">HOME 2</nuxt-link></li>
+<!--                                              <li><a href="#" class="active">HOME</a>-->
+<!--&lt;!&ndash;                                            class="active"><nuxt-link to="/">HOME</nuxt-link>&ndash;&gt;-->
+<!--                                                  <ul>-->
+<!--                                                    <li><a href="#" class="active">HOME-1</a></li>-->
+<!--&lt;!&ndash;                                                      <li class="active"><nuxt-link to="/">HOME-1</nuxt-link></li>&ndash;&gt;-->
+<!--                                                      <li><nuxt-link to="/index2">HOME-2</nuxt-link></li>-->
+<!--                                                  </ul>-->
+<!--                                              </li>-->
+                                              <li><a href="#baseinfo">基本信息</a></li>
+                                              <li><a href="#permission">权限分析</a></li>
+                                              <li><a href="#CertificationAndSDK">调证和SDK</a></li>
+                                            <li><a href="#ServeInfo">服务器信息</a></li>
+                                            <li><a href="#behavior">行为分析</a></li>
 <!--                                              <li><a href="#">行为分析</a>-->
 <!--                                                  <ul>-->
 <!--                                                      <li><nuxt-link to="/blog">Blog Posts</nuxt-link></li>-->
