@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -19,10 +18,10 @@ export default {
       { rel: "stylesheet", href: "/assets/plugins/mediabox/mediabox.min.css" },
       { rel: "stylesheet", href: "/assets/css/style.css" },
       { rel: "stylesheet", href: "/assets/css/responsive.css" },
-      { rel: "stylesheet", href: "/assets/css/custom.css" },
+      { rel: "stylesheet", href: "/assets/css/custom.css" }
     ],
     script: [
-      { src: "/assets/plugins/mediabox/mediabox.min.js", body: true },
+      { src: "/assets/plugins/mediabox/mediabox.min.js", body: true }
     ]
   },
   /*
@@ -35,12 +34,29 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
+  // css: [
+  // ],
+  css:[
+    'element-ui/lib/theme-chalk/index.css'
+  ],
+  plugins:[
+    '~/plugins/element-ui'
+    // "~/plugins/axios"
   ],
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [],
+** 跨域配置
+*/
+  devServer:{
+    proxy:{
+      ["/dev-api"]:{
+        target:'http://localhost:8080',
+        changeOrigin:true,
+        pathRewrite: {
+          ['^' + "/dev-ap"]: ''
+        }
+      }
+    }
+  },
   /*
   ** Nuxt.js dev-modules
   */
@@ -50,11 +66,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    // '@nuxtjs/axios',
+    // '@nuxtjs/proxy'
   ],
   /*
   ** Build configuration
   */
   build: {
+    // vendor: ["axios"],
     /*
     ** You can extend webpack config here
     */
@@ -62,3 +81,5 @@ export default {
     }
   }
 }
+
+
