@@ -1,7 +1,7 @@
 <div align="center">
 
 [//]: # (<h1>ApkAnalysis</h1>)
-  <img src="https://raw.githubusercontent.com/AFanSKyQs/StarAnalysis/main/README/logo.png" alt="LogoImg">
+  <img src="https://i.imgtg.com/2023/02/14/dBuxC.png" alt="LogoImg">
 <br>
  <img src="https://count.getloli.com/get/@:fansky_qs?theme=asoul" /><br>
 
@@ -40,6 +40,7 @@ set NODE_OPTIONS=--openssl-legacy-provider
 ``` bash
 npm run dev
 ```
+进入：http://localhost:3000/
 ### build for production and launch server
 ``` bash
 npm run build
