@@ -1,5 +1,5 @@
 <template>
-  <section class="border-top pt-115 pb-80" id='blog'>
+  <section class="border-top pt-115 pb-80" id='behavior'>
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-8 col-md-12">
@@ -121,7 +121,7 @@
 
 <script>
     export default {
-        name: "BlogHome"
+        name: "Behavior"
     }
 </script>
 
