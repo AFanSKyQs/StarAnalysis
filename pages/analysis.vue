@@ -1,5 +1,13 @@
 <template>
   <el-container style="height: 100%; border: 1px solid #36a3ce">
+    <div>
+      <div id="ofBar">
+        <div id="ofBar-logo"><img alt="creative-tim-logo" src="https://s3.amazonaws.com/creativetim_bucket/static-assets/logo-ct-black.png"></div>
+        <div id="ofBar-content">🎉 Take advantage of the last deals of the year! Choose your favorite <b>Winter Bundle and save 80% OFF</b> ❄️</div>
+        <div id="ofBar-right"><a href="https://www.creative-tim.com/campaign?ref=ct-demos" target="_blank" id="btn-bar">View Offer</a><a id="close-bar">×</a></div>
+      </div>
+      <div id="ofBar-right"><a href="https://www.creative-tim.com/campaign?ref=ct-demos" target="_blank" id="btn-bar">View Offer</a><a id="close-bar">×</a></div>
+    </div>
     <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
       <el-menu :default-openeds="['1', '3']">
         <el-submenu index="1">
@@ -82,6 +90,70 @@
 </template>
 
 <style>
+#ofBar-content {
+  display: inline;
+  padding: 0 15px;
+}
+#ofBar b {
+  font-size: 15px !important;
+}  b {
+  font-weight: bold;
+}
+#ofBar {
+  background: #fff;
+  z-index: 999999999;
+  font-size: 16px;
+  color: #333;
+  padding: 16px 40px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 40px;
+  width: 80%;
+  border-radius: 8px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 13px 27px -5px rgb(50 50 93 / 25%), 0 8px 16px -8px rgb(0 0 0 / 30%), 0 -6px 16px -6px rgb(0 0 0 / 3%);
+}
+#ofBar-right {
+  display: flex;
+  align-items: center;
+}
+#ofBar-logo img {
+  height: 50px;
+}
+#close-bar {
+  font-size: 17px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#btn-bar, #btn-bar:hover, #btn-bar:focus, #btn-bar:active {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+#btn-bar {
+  background-image: linear-gradient(310deg, #141727 0%, #3A416F 100%);
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  opacity: .95;
+  margin-right: 20px;
+  box-shadow: 0 5px 10px -3px rgb(0 0 0 / 23%), 0 6px 10px -5px rgb(0 0 0 / 25%);
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*two*/
 .el-header {
   background-color: rgba(255, 255, 255, 0.78);
   color: #333;

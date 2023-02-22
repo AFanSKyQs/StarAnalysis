@@ -4,11 +4,11 @@
     <BannerTwo />
     <BaseInfo />
     <Counter />
-    <ServiceOne />
+<!--    <ServiceOne />-->
     <ServiceTwo />
-    <Video />
+<!--    <Video />-->
     <Screenshots />
-    <Pricing />
+<!--    <Pricing />-->
     <Testimonial />
     <ClientsLogo />
     <BlogHome />
@@ -24,10 +24,10 @@
   import BaseInfo from "../components/BaseInfo.vue";
   import Counter from "../components/Counter";
   import ServiceTwo from "../components/ServiceTwo";
-  import ServiceOne from "../components/ServiceOne";
-  import Video from "../components/Video";
+  // import ServiceOne from "../components/ServiceOne";
+  // import Video from "../components/Video";
   import Screenshots from "../components/Screenshots";
-  import Pricing from "../components/Pricing";
+  // import Pricing from "../components/Pricing";
   import Testimonial from "../components/ServeInfo.vue";
   import ClientsLogo from "../components/ClientsLogo";
   import BlogHome from "../components/BlogHome";
@@ -38,10 +38,10 @@
       BlogHome,
       ClientsLogo,
       Testimonial,
-      Pricing,
+      // Pricing,
       Screenshots,
-      Video,
-      ServiceOne,
+      // Video,
+      // ServiceOne,
       ServiceTwo,
       Counter,
       BaseInfo,

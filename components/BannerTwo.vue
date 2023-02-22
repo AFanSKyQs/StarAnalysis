@@ -6,7 +6,7 @@
                       <div class="col-md-8 col-lg-6 col-xl-5">
                           <!-- banner text -->
                           <div class="banner-text-inner">
-                              <h1>Jironis is for your internet app business</h1>
+                              <h1>星探是一个Web端APK在线分析系统</h1>
                               <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit
                                   lorem ipsum anim id est laborum perspiciatis unde.</p>
                               <a href="#" class="btn">Upload APK</a>
