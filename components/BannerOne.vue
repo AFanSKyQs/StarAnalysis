@@ -21,35 +21,52 @@
                             </div>
                         </div>
                         <h2>星探是一个Web端APK在线分析系统</h2>
-                      <el-upload
-                        class="upload-demo"
-                        drag
-                        action=""
-                        multiple
-                        ref="upload"
-                        :auto-upload="false"
-                        :on-change="changeDemoFile"
-                        :limit=1
-                        :on-exceed="handleExceed"
-                        accept="application/apk,.apk"
-                        :file-list="fileList"
-                        :http-request="UploadApk"
-                        :on-preview="handlePreview"
-                        :on-remove="handleRemove"
-                      >
-                        <template #trigger>
-                          <i class="el-icon-upload"></i>
-                          <div class="el-upload__text">
-                            选择上传文件或者 <em>拖入文件到此处</em><br>
-                            只能上传apk文件，且大小不超过150MB
-                          </div>
-                        </template >
-                        <div class="el-upload__text">
-                          <el-button @click="UploadApk">开始上传</el-button>
-                        </div>
-                      </el-upload>
                       <br>
-                        <p>帮助你快速的在线分析apk信息，无需下载任何软件，即可分析apk的各种信息如权限、服务器、行为分析、包分析等...</p>
+                      <div class="card">
+                        <div class="tools">
+                          <div class="circle">
+                            <span class="red box"></span>
+                          </div>
+                          <div class="circle">
+                            <span class="yellow box">
+                            </span>
+                          </div>
+                          <div class="circle">
+                            <span class="green box"></span>
+                          </div>
+                        </div>
+                        帮助你快速的在线分析apk信息，无需下载任何软件，即可分析apk的各种信息如权限、服务器、行为分析、包分析等...
+                        <el-upload
+                          class="upload-demo"
+                          drag
+                          action=""
+                          multiple
+                          ref="upload"
+                          :auto-upload="false"
+                          :on-change="changeDemoFile"
+                          :limit=1
+                          :on-exceed="handleExceed"
+                          accept="application/apk,.apk"
+                          :file-list="fileList"
+                          :http-request="UploadApk"
+                          :on-preview="handlePreview"
+                          :on-remove="handleRemove"
+                        >
+                          <template #trigger>
+                            <i class="el-icon-upload"></i>
+                            <div class="el-upload__text">
+                              选择上传文件或者 <em>拖入文件到此处</em><br>
+                              只能上传apk文件，且大小不超过150MB
+                            </div>
+                          </template >
+                          <div class="el-upload__text">
+                            <el-button @click="UploadApk">开始上传</el-button>
+                          </div>
+                        </el-upload>
+                        <div class="card__content">
+                        </div>
+                      </div>
+<!--                        <p>帮助你快速的在线分析apk信息，无需下载任何软件，即可分析apk的各种信息如权限、服务器、行为分析、包分析等...</p>-->
                     </div>
                     <!-- banner text -->
                 </div>
@@ -203,8 +220,7 @@ export default {
 <style scoped>
 /*two*/
 button {
-  transform: translateX(30%);
-  background-color: rgba(255, 255, 255, 0.78);
+  background-color: #e7fffe;
   margin: 0 auto;
   width: 14em;
   height: 3em;
@@ -236,4 +252,51 @@ button::before {
 button:hover::before {
   width: 14em;
 }
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 105%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #010f229e;
+  border-radius: 9px;
+  z-index: 1;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
 </style>

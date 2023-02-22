@@ -1,13 +1,13 @@
 <template>
   <el-container style="height: 100%; border: 1px solid #36a3ce">
-    <div>
-      <div id="ofBar">
-        <div id="ofBar-logo"><img alt="creative-tim-logo" src="https://s3.amazonaws.com/creativetim_bucket/static-assets/logo-ct-black.png"></div>
-        <div id="ofBar-content">🎉 Take advantage of the last deals of the year! Choose your favorite <b>Winter Bundle and save 80% OFF</b> ❄️</div>
-        <div id="ofBar-right"><a href="https://www.creative-tim.com/campaign?ref=ct-demos" target="_blank" id="btn-bar">View Offer</a><a id="close-bar">×</a></div>
-      </div>
-      <div id="ofBar-right"><a href="https://www.creative-tim.com/campaign?ref=ct-demos" target="_blank" id="btn-bar">View Offer</a><a id="close-bar">×</a></div>
-    </div>
+<!--    <div>-->
+<!--      <div id="ofBar">-->
+<!--        <div id="ofBar-logo"><img alt="creative-tim-logo" src="https://s3.amazonaws.com/creativetim_bucket/static-assets/logo-ct-black.png"></div>-->
+<!--        <div id="ofBar-content">🎉 Take advantage of the last deals of the year! Choose your favorite <b>Winter Bundle and save 80% OFF</b> ❄️</div>-->
+<!--        <div id="ofBar-right"><a href="https://www.creative-tim.com/campaign?ref=ct-demos" target="_blank" id="btn-bar">View Offer</a><a id="close-bar">×</a></div>-->
+<!--      </div>-->
+<!--      <div id="ofBar-right"><a href="https://www.creative-tim.com/campaign?ref=ct-demos" target="_blank" id="btn-bar">View Offer</a><a id="close-bar">×</a></div>-->
+<!--    </div>-->
     <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
       <el-menu :default-openeds="['1', '3']">
         <el-submenu index="1">
