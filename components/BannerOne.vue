@@ -82,6 +82,13 @@ export default {
         this.$message.error('请先选择要上传的APK文件噢!');
         return
       }
+      // 判断文件大小，大于150MB即不允许上传
+      if (this.$refs.upload.uploadFiles[0].raw.size > 157286400) {
+        this.$message.error('上传APK大小不能超过 150MB!');
+        this.fileList = [];
+        return
+      }
+      // 判断文件类型
       if (this.$refs.upload.uploadFiles[0].raw.type !== 'application/vnd.android.package-archive') {
         console.log(this.$refs.upload.uploadFiles[0].raw.type)
         this.$message.error('上传文件只能是 apk 格式!');

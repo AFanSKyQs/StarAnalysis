@@ -97,7 +97,7 @@
                                       </div>
                                       <div class="twetter-post">
                                           <span><i class="fa fa-twitter"></i></span>
-                                          StarAnalysis - 2023,2,21
+                                          StarAnalysis - 2023
                                       </div>
                                   </div>
                               </div>
@@ -108,7 +108,7 @@
           </div>
           <div class="footer-bottom">
               <div class="footer-text text-center">
-                  <p>© copyright 2023 by StarAnalysis</p>
+                  <p>© copyright 2023 by StarAnalysis<br><br>{{date}}</p>
               </div>
           </div>
 
@@ -127,15 +127,23 @@
       name: "Footer",
       data(){
         return {
-          scrollBtn: false
+          scrollBtn: false,
+          date: new Date()
         }
       },
       mounted() {
-        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.handleScroll); // 监听滚动事件
+        let _this = this; // 声明一个变量指向Vue实例this，保证作用域一致
+        this.timer = setInterval(() => {
+          _this.date = new Date(); // 修改数据date
+        }, 1000)
       },
-
+      beforeDestroy() {
+        if (this.timer) {
+          clearInterval(this.timer); // 在Vue实例销毁前，清除我们的定时器
+        }
+      },
       methods: {
-
         handleScroll () {
 
           if (window.scrollY > 70) {
