@@ -96,7 +96,6 @@
 
 .container .box div strong {
   text-align: center;
-  transform: translateX(-20px);
   display: flex;
   flex-direction: column;
   justify-content: center;

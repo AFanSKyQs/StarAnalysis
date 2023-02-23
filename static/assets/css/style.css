@@ -281,7 +281,9 @@ ul, li {
 }
 
 b, strong {
-  font-weight: bold;
+  color: #f0f4c3;
+  font-weight: 200;
+  text-align: center;
 }
 
 .list-inline > li {
