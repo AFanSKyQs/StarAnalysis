@@ -83,7 +83,8 @@ input[type="number"] {
 }
 
 ::selection {
-  background: #31333e;
+  border-radius: 5px;
+  background: #ff572278;;
   color: #fff;
   text-shadow: none;
 }

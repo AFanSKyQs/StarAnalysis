@@ -6,7 +6,10 @@
                 <!-- user ineract text -->
                 <div class="user-interact-inner">
                     <div class="interact-icon">
-                        <img src="/assets/img/icons/solution1.svg" class="svg" alt="">
+                      <div class="spinner">
+                        <div class="spinner1"></div>
+                      </div>
+<!--                        <img src="/assets/img/icons/solution1.svg" class="svg" alt="">-->
                     </div>
 <!--                    <h2>Interact With Your Users On Every Single Platform</h2>-->
 <!--                    <p>-->
@@ -16,7 +19,7 @@
 <!--                    </p>-->
                   <div class="container">
                     <div class="box">
-                      <span class="title">APK权限信息分析</span>
+                      <span class="title">APK权限分析</span>
 <!--                      <div>-->
                         <strong>应用所需的权限信息分析
                           包括 普通权限、敏感权限、危险权限
@@ -70,7 +73,7 @@
 }
 
 .container .box {
-  width: 30em;
+  width: 26em;
   height: auto;
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.074);
@@ -102,5 +105,29 @@
   align-items: center;
   margin-bottom: 1rem;
 }
+/*addNew*/
+.spinner {
+  background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+  width: 200px;
+  height: 200px;
+  animation: spinning82341 1.7s linear infinite;
+  text-align: center;
+  border-radius: 100px;
+  filter: blur(1px);
+  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+}
 
+.spinner1 {
+  background-color: rgb(36, 36, 36);
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  filter: blur(10px);
+}
+
+@keyframes spinning82341 {
+  to {
+    transform: rotate(360deg);
+  }
+}
 </style>
