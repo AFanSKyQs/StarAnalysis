@@ -77,7 +77,7 @@ input[type="number"] {
 }
 
 ::-moz-selection {
-  background: #31333e;
+  background: #ff572278;
   color: #fff;
   text-shadow: none;
 }
