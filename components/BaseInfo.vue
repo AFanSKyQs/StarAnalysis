@@ -7,11 +7,8 @@
                   <!-- section title -->
                   <div class="section-title text-center">
                       <h2>APK基本信息解析</h2>
-                    <ul>
-                      Apk基本信息分析，包括文件大小 、包名、版本信息 、程序入口以及MD5
-                    </ul>
-                    <a href="https://baike.baidu.com/item/MD5/212708" target="_blank"><span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-400">MD5、</span></a>
-                    <a href="https://blog.csdn.net/u011583927/article/details/80905740" target="_blank"><span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-400">SHA256</span></a>
+                    <p>Apk基本信息分析，包括文件大小 、包名、版本信息 、程序入口以及<a href="https://baike.baidu.com/item/MD5/212708" target="_blank" rel="noopener">MD5、</a><a href="https://blog.csdn.net/u011583927/article/details/80905740" target="_blank" rel="noopener">SHA256</a>等信息
+                    </p>
                   </div>
                   <!-- End of section title -->
               </div>
@@ -122,31 +119,5 @@
 </script>
 
 <style scoped>
-.text-transparent {
-  color: transparent;
-}
- .to-teal-400 {
-   --darkreader-bg--tw-gradient-to: #2dbbb4;
- }
- .from-green-400 {
-   --darkreader-bg--tw-gradient-from: #dc3545;
-   --darkreader-bg--tw-gradient-to: rgb(23 91 197);
-   --darkreader-bg--tw-gradient-stops: var(--darkreader-bg--tw-gradient-from),var(--darkreader-bg--tw-gradient-to);
- }
- .bg-gradient-to-r {
-   background-image: linear-gradient(to right,var(--darkreader-bg--tw-gradient-stops));
- }
-.text-transparent {
-  color: transparent;
-}
 
-.bg-clip-text {
-  font-size: 25px;
-  font-weight: 700;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-.to-teal-400 {
-  --tw-gradient-to: #36e4da;
-}
 </style>

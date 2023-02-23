@@ -5,9 +5,9 @@
                     <div class="col-md-12 col-lg-8">
                         <!-- section title -->
                         <div class="section-title text-center">
-                            <h2>APK调证信息、第三方SDK</h2>
-                            <p><a href="https://www.jianshu.com/p/fb23ee3066f9" target="_blank" rel="noopener">第三方SDK</a>数据、APK调证信息
-                              <br>包括调证的方法、调证的参数、调证的返回值等... </p>
+                            <h2>APK调证信息、SDK</h2>
+                          <p>包括Apk所涉及的电话、邮箱，获取通讯录、获取短信的数据、<a href="https://www.jianshu.com/p/fb23ee3066f9" target="_blank" rel="noopener">第三方SDK</a>、APK调证信息<br>包括调证的方法、调证的参数、调证的返回值等...
+                          </p>
                         </div>
                         <!-- End of section title -->
                     </div>

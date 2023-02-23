@@ -20,7 +20,7 @@
                                 <img src="/assets/img/banner/shaps7.png" alt="" class='shape shape7 rotate3d'>
                             </div>
                         </div>
-                        <h2>星探是一个Web端APK在线分析系统</h2>
+                        <h1>星探是一个Web端APK在线分析系统</h1>
                       <br>
                       <div class="card">
                         <div class="tools">

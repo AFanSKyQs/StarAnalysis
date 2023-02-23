@@ -106,18 +106,19 @@ textarea {
 }
 
 img {
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
 }
 
 a {
-  color: #f77ade;
+  font-weight: lighter;
+  color: #26c6da;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 a:hover {
-  color: #f77ade;
+  color: #a45ce7;
 }
 
 a,
@@ -131,15 +132,21 @@ a:focus {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Poppins', sans-serif;
-  color: #006064;
+  color: #4dd0e1;
 }
 
 h1, .h1 {
+  background: -webkit-linear-gradient(315deg,#00d4b5 25%,#ed05f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 50px;
   line-height: 55px;
 }
 
 h2, .h2 {
+  background:-webkit-linear-gradient(358deg,#e91e63 25%,#05f3b1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 40px;
   line-height: 55px;
 }
@@ -169,8 +176,8 @@ p {
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 18px;
+  color: #80deea;
   line-height: 36px;
   overflow-x: hidden !important;
   font-weight: 400;
@@ -1547,13 +1554,13 @@ label input[type=radio] {
     05: Feature area
 ==============================================*/
 .section-title h2 {
-  color: #36324a;
+  color: #e0f7fa;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
 .section-title p {
-  color: #6f6c7f;
+  color: #cfd8dc;
   line-height: 30px;
 }
 
@@ -2888,9 +2895,9 @@ section.app-video:before {
 }
 
 .download-app-inner .btn {
-  border-color: #f77ade;
-  color: #fff;
-  background: #f77ade;
+  border-color: #2196f3;
+  color: #97dc77;
+  background: #4dd0e145;
   margin-bottom: 4px;
   font-size: 20px;
   font-weight: 600;
@@ -3482,4 +3489,33 @@ h1 span {
 
 html {
   scroll-behavior: smooth;
+}
+
+/*...........................增加...........................*/
+.text-transparent {
+  color: transparent;
+}
+.to-teal-400 {
+  --darkreader-bg--tw-gradient-to: #2dbbb4;
+}
+.from-green-400 {
+  --darkreader-bg--tw-gradient-from: #dc3545;
+  --darkreader-bg--tw-gradient-to: rgb(23 91 197);
+  --darkreader-bg--tw-gradient-stops: var(--darkreader-bg--tw-gradient-from),var(--darkreader-bg--tw-gradient-to);
+}
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right,var(--darkreader-bg--tw-gradient-stops));
+}
+.text-transparent {
+  color: transparent;
+}
+
+.bg-clip-text {
+  font-size: 25px;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.to-teal-400 {
+  --tw-gradient-to: #36e4da;
 }
