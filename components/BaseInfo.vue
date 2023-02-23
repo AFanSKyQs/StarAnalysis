@@ -22,9 +22,10 @@
                       <swiper-slide>
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
-                          <div class="feature-icon"><img src="/assets/img/icons/project-management.svg" class="svg" alt=""></div>
-                          <h5>编码解析<br>MD5、SHA256</h5>
-                          <p>常见编码解析如MD5、SHA256等编码信息。</p>
+<!--                          <div class="feature-icon"><img src="/assets/img/icons/project-management.svg" class="svg" alt=""></div>-->
+                        <div class="feature-icon"><img src="/assets/img/icons/Code.svg" class="svg" alt=""></div>
+                          <h5>编码信息<br>如MD5、SHA256</h5>
+                          <p>常见编码信息解析。</p>
                       </div>
                       <!-- End of single feature inner -->
                       </swiper-slide>
@@ -32,9 +33,9 @@
                       <swiper-slide>
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
-                          <div class="feature-icon"><img src="/assets/img/icons/solution.svg" class="svg" alt=""></div>
-                          <h5>文件大小<br> 基本信息展示</h5>
-                          <p>APK最基本信息的解析展示</p>
+                          <div class="feature-icon"><img src="/assets/img/icons/baseinfo.svg" class="svg" alt=""></div>
+                          <h5>文件信息<br> 文件基本信息展示</h5>
+                          <p>APK最基本信息的解析</p>
                       </div>
                       <!-- End of single feature inner -->
                       </swiper-slide>
@@ -42,7 +43,7 @@
                       <swiper-slide>
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
-                          <div class="feature-icon"><img src="/assets/img/icons/planning.svg" class="svg" alt=""></div>
+                          <div class="feature-icon"><img src="/assets/img/icons/edition.svg" class="svg" alt=""></div>
                           <h5>版本信息</h5>
                           <p>APK的版本信息等解析...</p>
                       </div>
@@ -52,8 +53,8 @@
                       <swiper-slide>
                       <!-- single feature inner -->
                       <div class="single-feature-inner text-center">
-                          <div class="feature-icon"><img src="/assets/img/icons/goal.svg" class="svg" alt=""></div>
-                          <h5>程序入口<br>解析APK的查询入口</h5>
+                          <div class="feature-icon"><img src="/assets/img/icons/order.svg" class="svg" alt=""></div>
+                          <h5>程序信息<br>解析APK的查询入口</h5>
                           <p>解析APK的查询入口</p>
                       </div><!-- End of single feature inner -->
                       </swiper-slide>
